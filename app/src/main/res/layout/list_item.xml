@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageview"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginTop="@dimen/small_margin_listItem"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titre"
+        android:layout_toRightOf="@id/imageview"
+
+        android:text="titre"
+        android:textSize="@dimen/font_listItem_title"
+        android:textStyle="bold"
+
+        android:layout_marginTop="@dimen/small_margin_listItem"
+        android:layout_marginLeft="@dimen/listItem_element_spacing"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/auteur"
+        android:layout_toRightOf="@id/imageview"
+        android:layout_below="@id/titre"
+
+        android:text="auteur"
+        android:textSize="@dimen/font_listItem"
+
+        android:layout_marginLeft="@dimen/listItem_element_spacing"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editeur"
+        android:layout_toRightOf="@id/imageview"
+        android:layout_below="@id/auteur"
+
+        android:text="editeur"
+        android:textSize="@dimen/font_listItem"
+
+        android:layout_marginLeft="@dimen/listItem_element_spacing"/>
+</RelativeLayout>

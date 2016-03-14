@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.salah.exo1_vues_intents.Main2Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/small_margin_listItem"
+        android:paddingLeft="@dimen/small_margin_listItem"
+        android:paddingRight="@dimen/small_margin_listItem"
+        android:paddingTop="@dimen/small_margin_listItem">
+
+        <ImageView
+
+            android:id="@+id/imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="@dimen/small_margin_listItem" />
+
+        <TextView
+            android:id="@+id/titre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageview"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+
+            android:text="titre"
+            android:textSize="@dimen/font_Detailed_title"
+            android:textStyle="bold"
+
+            android:layout_marginTop="@dimen/small_margin_listItem"/>
+
+        <TextView
+            android:id="@+id/auteur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/titre"
+
+            android:layout_marginLeft="@dimen/small_margin_listItem"
+            android:text="auteur"
+
+            android:textSize="@dimen/font_Detailed" />
+
+        <TextView
+            android:id="@+id/editeur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/auteur"
+
+            android:layout_marginLeft="@dimen/small_margin_listItem"
+            android:text="editeur"
+
+            android:textSize="@dimen/font_Detailed" />
+
+        <TextView
+            android:id="@+id/annee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/editeur"
+
+            android:layout_marginLeft="@dimen/small_margin_listItem"
+            android:text="resume"
+
+            android:textSize="@dimen/font_Detailed" />
+
+
+        <TextView
+            android:id="@+id/resume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/annee"
+
+            android:layout_marginLeft="@dimen/small_margin_listItem"
+            android:text="resume"
+
+            android:textSize="@dimen/font_Detailed" />
+
+
+    </RelativeLayout>
+</ScrollView>
