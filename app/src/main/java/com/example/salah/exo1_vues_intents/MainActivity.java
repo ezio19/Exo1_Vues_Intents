@@ -12,6 +12,9 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private CustomAdapter customAdapter;
+
+    // I tried to commit here created the a variable
+    int a;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
