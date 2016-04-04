@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     // I tried to commit here created the a variable
     int a;
+    // Now i'm trying another comment
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
